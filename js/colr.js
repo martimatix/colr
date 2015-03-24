@@ -1,10 +1,3 @@
-// Requires pusher.js from http://surfacecurve.org:8708/libraries/color
-// Curl command:
-// curl http://surfacecurve.org:8708/platform/pusher/script/pusher.color.js > js/pusher.js
-
-// Add this to html before colr.js:
-// <script src="js/pusher.js"></script>
-
 $(window).on('mousemove', function (event) {
 
   var hue = Math.round((event.pageX / window.innerWidth) * 360);
